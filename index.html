@@ -292,7 +292,7 @@
 		</div>
 		<header class="header">
 			<div class="wrap header-inner">
-				<a class="brand" href="#home" aria-label="Parmod Traders home">
+				<a class="brand" href="#home" aria-label="Parmod Traders home" data-aria-copy="brandHome">
 					<img class="brand-mark" src="assets/parmod-traders-logo.png" alt="" width="54" height="54" />
 					<span class="brand-copy"><strong data-shop-name>Parmod Traders</strong><small data-copy="brandTag">Loharu · Haryana</small></span>
 				</a>
@@ -395,7 +395,7 @@
 							<div class="contact-row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M6.6 3.5h3l1.5 4-2 1.6a15 15 0 0 0 5.8 5.8l1.6-2 4 1.5v3c0 1.1-.9 2-2 2C10.3 19.4 4.6 13.7 4.6 6.5c0-1.7.8-3 2-3Z"/></svg><div><strong data-copy="phoneLabel">Phone</strong><a data-phone href="tel:+918307362602">+91 8307362602</a></div></div>
 							<div class="contact-row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><div><strong data-copy="hoursLabel">Business hours</strong><p data-hours>Open Daily · 9:00 AM–6:00 PM</p></div></div>
 							<div class="contact-actions"><a class="button button-whatsapp" data-whatsapp="general" href="#contact"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M20.5 11.5a8.5 8.5 0 0 1-12.6 7.4L3 20l1.2-4.6A8.5 8.5 0 1 1 20.5 11.5Z"/><path d="M8.5 8.2c.4 2.3 2.2 4.2 4.5 4.9l1.2-1.1 2.1 1c-.1 1.5-1.1 2.3-2.7 2.1-3.9-.6-6.3-3.2-6.8-6.3-.2-1.2.5-2.2 1.7-2.5l1 1.9-.9 1Z"/></svg><span data-copy="whatsappButton">WhatsApp us</span></a><a class="button button-outline" data-phone href="tel:+918307362602"><span data-copy="callButton">Call the shop</span></a><a class="button button-outline" data-directions href="#location"><span data-copy="directionsButton">Get Directions</span></a><a class="button button-outline" id="google-reviews-link" data-copy="googleReviewsButton" href="#contact" hidden>Write a Google review</a></div>
-							<div class="qr-row"><div class="qr-frame"><img id="whatsapp-qr" alt="WhatsApp enquiry QR code for Parmod Traders" width="116" height="116" loading="eager" /></div><div class="qr-copy"><strong data-copy="whatsappQrTitle">Scan to start a WhatsApp enquiry</strong><p data-copy="whatsappQrText">The code opens a general enquiry conversation with Parmod Traders.</p><a data-whatsapp="general" href="#contact" data-copy="qrFallback">Open WhatsApp instead</a></div></div>
+							<div class="qr-row"><div class="qr-frame"><img id="whatsapp-qr" alt="WhatsApp enquiry QR code for Parmod Traders" data-alt-copy="whatsappQrAlt" width="116" height="116" loading="eager" /></div><div class="qr-copy"><strong data-copy="whatsappQrTitle">Scan to start a WhatsApp enquiry</strong><p data-copy="whatsappQrText">The code opens a general enquiry conversation with Parmod Traders.</p><a data-whatsapp="general" href="#contact" data-copy="qrFallback">Open WhatsApp instead</a></div></div>
 							<div class="qr-row" id="website-qr-area"><div class="qr-frame" id="website-qr-frame"><span aria-hidden="true">—</span></div><div class="qr-copy"><strong id="website-qr-title" data-copy="websiteQrPendingTitle">Website QR code</strong><p id="website-qr-text" data-copy="websiteQrPendingText">A website QR code will be generated after deployment. Set SITE_CONFIG.website.publicUrl when the public website is live.</p></div></div>
 						</div>
 						<div class="contact-panel" id="location">
@@ -404,7 +404,7 @@
 								<iframe id="map-embed" title="Google Map for Parmod Traders, Fartiya Road, Loharu" data-title-copy="mapTitle" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
 								<div class="map-fallback" id="map-fallback"><p id="map-fallback-message" data-copy="mapFallbackHint">If the preview doesn't load, open directions in Google Maps.</p><a class="button button-outline" data-directions href="#location" data-copy="directionsButton">Get Directions</a></div>
 							</div>
-							<p class="availability-note" data-copy="mapAddressNote">Fartiya Road, near Singla Hospital, Loharu, Haryana 127201, India</p>
+							<p class="availability-note" data-address>Fartiya Road, near Singla Hospital, Loharu, Haryana 127201, India</p>
 						</div>
 					</div>
 				</div>
@@ -442,10 +442,11 @@
 					instagram: "https://www.instagram.com/parmodtraders_/",
 										googleReviewsUrl: "",
 					address: "Fartiya Road, near Singla Hospital, Loharu, Haryana 127201, India",
+					addressHi: "फार्टिया रोड, सिंगला अस्पताल के पास, लोहारू, हरियाणा 127201, भारत",
 					directionsUrl: "https://www.google.com/maps?rlz=1C1CHBF_enIN1070IN1070&gs_lcrp=EgZjaHJvbWUqBggBECMYJzIGCAAQRRg5MgYIARAjGCcyBwgCEAAYgAQyBwgDEC4YgAQyBwgEEC4YgAQyBggFEEUYPDIGCAYIBxBFGDzSAQg4NTAzajBqN6gCALACAA&um=1&ie=UTF-8&fb=1&gl=in&sa=X&geocode=KRPhEiBW5RI5MbcwS8OD5k0U&daddr=Fartiya+road,+near+singla+hospital,+Loharu,+Haryana+127201",
 					/* Search for the shop by name while retaining its supplied address. */
 					mapEmbedUrl: "https://www.google.com/maps?q=Parmod+Traders,+Fartiya+Road,+Loharu,+Haryana+127201&output=embed",
-					hours: { en: "Open Daily · 9:00 AM–6:00 PM", hi: "प्रतिदिन खुला · सुबह 9:00 बजे–शाम 6:00 बजे" },
+					hours: { en: "Open Daily · 9:00 AM–6:00 PM", hi: "प्रतिदिन · सुबह 9:00 बजे से शाम 6:00 बजे तक" },
 					messageTemplates: {
 						general: { en: "Hello {{business}}, I’d like to enquire about your products and available options.", hi: "नमस्ते {{business}}, मुझे आपके उत्पादों और उपलब्ध विकल्पों के बारे में जानकारी चाहिए।" },
 						category: { en: "Hello {{business}}, I’m interested in {{category}}. Please share the available options and prices.", hi: "नमस्ते {{business}}, मुझे {{category}} में रुचि है। कृपया उपलब्ध विकल्पों और कीमतों के बारे में बताएं।" },
@@ -460,12 +461,12 @@
 					areas: [],
 				},
 				categories: [
-					{ id: "furniture", icon: "chair", name: { en: "Furniture", hi: "फर्नीचर" }, description: { en: "Beds, sofas, dressing tables, almirahs, tables, stools and chairs.", hi: "बेड, सोफा, ड्रेसिंग टेबल, अलमारी, मेज, स्टूल और कुर्सियाँ।" } },
-					{ id: "bedding", icon: "bed", name: { en: "Bedding & Home Furnishings", hi: "बिस्तर और घरेलू साज-सज्जा" }, description: { en: "Mattresses, pillows, bedsheets and pillow covers.", hi: "गद्दे, तकिए, चादरें और तकिए के कवर।" } },
-					{ id: "utensils", icon: "utensils", name: { en: "Kitchen & Household Utensils", hi: "रसोई और घरेलू बर्तन" }, description: { en: "Plates, kitchen utensils and cookware.", hi: "प्लेटें, रसोई के बर्तन और खाना पकाने के बर्तन।" } },
-					{ id: "appliances", icon: "appliance", name: { en: "Home Appliances", hi: "घरेलू उपकरण" }, description: { en: "Refrigerators, washing machines, coolers, LED TVs, irons and juicers.", hi: "फ्रिज, वॉशिंग मशीन, कूलर, LED टीवी, प्रेस और जूसर।" } },
-					{ id: "decor", icon: "decor", name: { en: "Home Décor & Accessories", hi: "घर की सजावट और सहायक वस्तुएँ" }, description: { en: "Wall clocks and other household items.", hi: "दीवार घड़ियाँ और अन्य घरेलू सामान।" } },
-					{ id: "other", icon: "other", name: { en: "Other Products", hi: "अन्य उत्पाद" }, description: { en: "A configurable category for future additions.", hi: "भविष्य में जोड़ी जाने वाली वस्तुओं के लिए श्रेणी।" } },
+					{ id: "furniture", icon: "chair", name: { en: "Furniture", hi: "फर्नीचर" }, description: { en: "Ask us about furniture options for your home.", hi: "अपने घर के लिए फर्नीचर के विकल्पों के बारे में पूछें।" } },
+					{ id: "bedding", icon: "bed", name: { en: "Bedding & Home Furnishings", hi: "बिस्तर और घरेलू साज-सज्जा" }, description: { en: "Ask about bedding and home furnishing options.", hi: "बिस्तर और घरेलू साज-सज्जा के विकल्पों के बारे में पूछें।" } },
+					{ id: "utensils", icon: "utensils", name: { en: "Kitchen & Household Utensils", hi: "रसोई और घरेलू बर्तन" }, description: { en: "Ask about kitchen and household utensils.", hi: "रसोई और घरेलू बर्तनों के बारे में पूछें।" } },
+					{ id: "appliances", icon: "appliance", name: { en: "Home Appliances", hi: "घरेलू उपकरण" }, description: { en: "Ask about home appliances and available options.", hi: "घरेलू उपकरणों और उपलब्ध विकल्पों के बारे में पूछें।" } },
+					{ id: "decor", icon: "decor", name: { en: "Home Décor & Accessories", hi: "घर की सजावट और सहायक वस्तुएँ" }, description: { en: "Ask about home décor and household accessories.", hi: "घर की सजावट और घरेलू उपयोग की वस्तुओं के बारे में पूछें।" } },
+					{ id: "other", icon: "other", name: { en: "Other Products", hi: "अन्य उत्पाद" }, description: { en: "For enquiries about products not listed above.", hi: "ऊपर दी गई श्रेणियों के अलावा अन्य उत्पादों के लिए पूछें।" } },
 				],
 				/* Add only confirmed, text-only offers, new arrivals, or genuine testimonials. */
 				offers: [],
@@ -473,7 +474,7 @@
 				testimonials: [],
 				website: {
 					/* Enter the verified deployed HTTPS URL; local, malformed, and non-HTTPS URLs are rejected. */
-					publicUrl: "",
+					publicUrl: "https://parmod-traders.netlify.app/",
 				},
 				gallery: [],
 				qrImageEndpoint: "https://api.qrserver.com/v1/create-qr-code/",
@@ -483,7 +484,7 @@
 				en: {
 					showroomTitle: "Take a Look Inside Parmod Traders", showroomDescription: "Explore our showroom and discover furniture, home appliances, utensils and household essentials.", showroomButton: "Enquire on WhatsApp", showroomWatchLabel: "Watch Showroom Video", showroomClose: "Close video", showroomFallback: "This showroom video could not be played. Please try again later.",
 					galleryKicker: "Showroom photos", galleryTitle: "A look inside Parmod Traders.", googleReviewsButton: "Write a Google review", mapFallbackHint: "If the preview doesn't load, open directions in Google Maps.", mapUnavailable: "The map preview could not load. Use the directions link instead.", qrUnavailable: "QR unavailable",
-					mainNav: "Main navigation", languageLabel: "Language", highlightsLabel: "Shop highlights", quickContact: "Quick contact", mapTitle: "Google Map for Parmod Traders, Fartiya Road, Loharu",
+					mainNav: "Main navigation", languageLabel: "Language", highlightsLabel: "Shop highlights", quickContact: "Quick contact", brandHome: "Parmod Traders home", mapTitle: "Google Map for Parmod Traders, Fartiya Road, Loharu", whatsappQrAlt: "WhatsApp enquiry QR code for Parmod Traders", websiteQrAlt: "QR code for the Parmod Traders website",
 					skip: "Skip to content", topline: "Local retail, personal assistance in Loharu", brandTag: "Loharu · Haryana",
 					navCategories: "Categories", navAbout: "About", navLocation: "Location", navContact: "Contact", visitShop: "Visit the shop",
 					heroKicker: "A local shop in Loharu", heroTitle: "Everything for Your Home, in One Place.", heroText: "Explore furniture, utensils, home appliances and household essentials at Parmod Traders, Loharu.", exploreCategories: "Explore categories", askWhatsApp: "Ask on WhatsApp", heroNote: "Ask us about options, prices and local delivery.", artLabelOne: "Home essentials", artLabelTwo: "Loharu · Haryana",
@@ -497,7 +498,7 @@
 				hi: {
 										showroomTitle: "Parmod Traders के अंदर की झलक देखें", showroomDescription: "हमारे शोरूम में फर्नीचर, घरेलू उपकरण, बर्तन और रोज़मर्रा की घरेलू ज़रूरतें देखें।", showroomButton: "WhatsApp पर पूछें", showroomWatchLabel: "शोरूम वीडियो देखें", showroomClose: "वीडियो बंद करें", showroomFallback: "यह शोरूम वीडियो नहीं चल पाया। कृपया बाद में फिर प्रयास करें।",
 										galleryKicker: "शोरूम की तस्वीरें", galleryTitle: "Parmod Traders के अंदर की झलक।", googleReviewsButton: "Google पर समीक्षा लिखें", mapFallbackHint: "यदि नक्शा नहीं खुले, तो Google Maps में रास्ता देखें।", mapUnavailable: "नक्शा नहीं खुला। रास्ता देखने के लिए दिए गए लिंक का उपयोग करें।", qrUnavailable: "QR उपलब्ध नहीं",
-					mainNav: "मुख्य नेविगेशन", languageLabel: "भाषा", highlightsLabel: "दुकान की विशेषताएँ", quickContact: "त्वरित संपर्क", mapTitle: "Google Map for Parmod Traders, Fartiya Road, Loharu",
+					mainNav: "मुख्य नेविगेशन", languageLabel: "भाषा", highlightsLabel: "दुकान की विशेषताएँ", quickContact: "त्वरित संपर्क", brandHome: "Parmod Traders का मुख्य पृष्ठ", mapTitle: "Parmod Traders का Google मानचित्र, फार्टिया रोड, लोहारू", whatsappQrAlt: "Parmod Traders से WhatsApp पर संपर्क के लिए QR कोड", websiteQrAlt: "Parmod Traders की वेबसाइट खोलने के लिए QR कोड",
 					skip: "मुख्य सामग्री पर जाएँ", topline: "लोहारू में स्थानीय दुकान, व्यक्तिगत सहायता", brandTag: "लोहारू · हरियाणा",
 					navCategories: "श्रेणियाँ", navAbout: "हमारे बारे में", navLocation: "स्थान", navContact: "संपर्क", visitShop: "दुकान पर आएँ",
 					heroKicker: "लोहारू की स्थानीय दुकान", heroTitle: "आपके घर की हर ज़रूरत, एक ही जगह।", heroText: "लोहारू के Parmod Traders में फर्नीचर, बर्तन, घरेलू उपकरण और रोज़मर्रा की घरेलू ज़रूरतें देखें।", exploreCategories: "श्रेणियाँ देखें", askWhatsApp: "WhatsApp पर पूछें", heroNote: "विकल्पों, कीमतों और स्थानीय डिलीवरी के बारे में पूछें।", artLabelOne: "घरेलू ज़रूरतें", artLabelTwo: "लोहारू · हरियाणा",
@@ -684,10 +685,17 @@
 				});
 				document.querySelectorAll("[data-aria-copy]").forEach((element) => { element.setAttribute("aria-label", COPY[currentLanguage][element.dataset.ariaCopy]); });
 				document.querySelectorAll("[data-title-copy]").forEach((element) => { element.title = COPY[currentLanguage][element.dataset.titleCopy]; });
+				document.querySelectorAll("[data-alt-copy]").forEach((element) => { element.alt = COPY[currentLanguage][element.dataset.altCopy]; });
+				const websiteQr = document.querySelector("#website-qr-frame img");
+				if (websiteQr) websiteQr.alt = COPY[currentLanguage].websiteQrAlt;
+				if (configuredPublicUrl()) {
+					document.getElementById("website-qr-title").textContent = COPY[currentLanguage].websiteQrTitle;
+					document.getElementById("website-qr-text").textContent = COPY[currentLanguage].websiteQrText;
+				}
 				document.getElementById("map-embed").title = COPY[currentLanguage].mapTitle;
 				document.querySelectorAll("[data-language]").forEach((button) => button.setAttribute("aria-pressed", String(button.dataset.language === currentLanguage)));
 				document.querySelectorAll("[data-phone]").forEach((element) => { element.href = `tel:${SITE_CONFIG.business.phoneLink}`; element.textContent = SITE_CONFIG.business.phone; });
-				document.querySelectorAll("[data-address]").forEach((element) => { element.textContent = SITE_CONFIG.business.address; });
+				document.querySelectorAll("[data-address]").forEach((element) => { element.textContent = currentLanguage === "hi" ? SITE_CONFIG.business.addressHi : SITE_CONFIG.business.address; });
 				document.querySelectorAll("[data-hours]").forEach((element) => { element.textContent = textFor(SITE_CONFIG.business.hours); });
 				document.getElementById("delivery-message").textContent = textFor(SITE_CONFIG.delivery.message);
 				document.querySelectorAll("[data-shop-name]").forEach((element) => { element.textContent = SITE_CONFIG.business.name; });
@@ -815,7 +823,7 @@
 			}
 
 			function updateWhatsappQr() {
-				setQrImage(document.getElementById("whatsapp-qr").closest(".qr-frame"), waUrl(generalMessage()), "WhatsApp enquiry QR code for Parmod Traders");
+				setQrImage(document.getElementById("whatsapp-qr").closest(".qr-frame"), waUrl(generalMessage()), COPY[currentLanguage].whatsappQrAlt);
 			}
 
 			document.querySelectorAll("[data-language]").forEach((button) => button.addEventListener("click", () => setLanguage(button.dataset.language)));
